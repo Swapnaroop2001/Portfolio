@@ -19,3 +19,17 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.Firstsection{
+  display:flex ;
+  justify-content: space-around;
+  margin: 25px 0;
+}
+.Firstsection div{
+  width:40%;
+}
+.left{
+  font-size: 2rem;
+  padding-top: 70px;
+  padding-left: 50px;
+}
