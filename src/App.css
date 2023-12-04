@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-  margin-bottom: 20px;
+  margin-bottom: 21.25rem;
 }
 
 footer {
@@ -23,13 +23,13 @@ footer {
 .Firstsection{
   display:flex ;
   justify-content: space-around;
-  margin: 25px 0;
+  margin: 1.25rem 0;
 }
 .Firstsection div{
   width:40%;
 }
 .left{
-  font-size: 2rem;
+  font-size: 30;
   padding-top: 70px;
-  padding-left: 50px;
+  padding-left: 90px;
 }

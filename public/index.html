@@ -54,8 +54,14 @@
       </div> -->
     <div class="left" ">
       <h1><b>Hey there!</b></h1>
-            <p>My name is<b>Swapnaroop</b>, and I am a Developer.</p>
-    </div>
+            <p style="font-family: inherit;font-size: 24px;">My name is <b>Swapnaroop</b>, and I am a
+            </p>
+            <span id="element" style="font-size: 24px;"></span>
+            <br>
+            <br>
+            <button type="button" style="border-radius: 20px;" class="btn btn-dark">Download Resume</button>
+            <button type="button" style="border-radius: 20px;" class="btn btn-dark">Github</button>  
+          </div>
 
     <div class="right">
       <img align="right" alt="coding" width="400" src="https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
@@ -116,10 +122,16 @@
   <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2023 Software Developer Portfolio</p>
   </footer>
-
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Software Developer.', 'Graduate Student.'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 
 </html>
